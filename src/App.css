@@ -1,0 +1,78 @@
+/* App.css */
+
+body {
+  color: #ffff66;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #f0e68c; /* Cor de ouro pálido como cor de fundo */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #483d8b; /* Azul escuro médio */
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #556b2f; /* Verde oliva escuro */
+}
+
+input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #8b4513; /* Marrom escuro */
+  border-radius: 4px;
+}
+
+button {
+  background-color: #cd853f; /* Marrom claro */
+  color: #ffff99;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #a0522d; /* Marrom mais escuro ao passar o mouse */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #696969; /* Cinza escuro */
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #d3d3d3; /* Cinza claro para os itens da lista */
+  border-radius: 4px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+ 
